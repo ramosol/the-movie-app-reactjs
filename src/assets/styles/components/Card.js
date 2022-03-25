@@ -26,8 +26,9 @@ const Card = () => {
   return (
     <div className="card-component">
       <div className="containerBlancSearch">
-      <h1 className='bienvenue'>Bienvenue, <br />
-          Des millions de films, émissions télévisées et artistes...</h1>
+        <h1 className='welcome'>Bienvenue,</h1><br />
+        <h2 className='welcome-sub-text'>Des millions de films, émissions télévisées et artistes...</h2>
+          
         <form className="form-wrapper">
           
           <input type="text" placeholder='Entrez un titre de film' 

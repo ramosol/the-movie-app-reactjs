@@ -10,7 +10,7 @@
 $font-1: "font-1", sans-serif;
 $font-2: "font-2", sans-serif;
 
-$color-1: #546fe4;
+$color-1: #EA474C;
 $color-2: #5d6ece;
 $color-3: rgb(100, 100, 100);
 $black: #060d2c;
@@ -40,7 +40,12 @@ body {
   // color: $white;
 }
 li {
+  font-size: 24px;
   list-style: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .result {
   display: flex;
