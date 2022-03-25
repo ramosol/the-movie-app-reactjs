@@ -5,8 +5,8 @@ const CardItem =  (props) => {
   return (
     <div className="card">
       <h1 className="itemTitle">{titre}</h1>
-      <p>{description}</p>
       <img src={imageUrl} alt="" />
+      <p>{description}</p>
     </div>
   )
 }
