@@ -1,0 +1,70 @@
+.card-component {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+
+  .card-container {
+    text-align: center;
+    display: flex;
+    padding: 2%;
+    flex-wrap: wrap;
+    width: 75%;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+
+    input[type="text"] {
+      padding: 1px 10px;
+      // border-radius: 10px 10px 0 0;
+      border: none;
+      font-size: 1.5rem;
+      display: block;
+      // margin: 0 auto;
+      width: 220px;
+      outline: none;
+      text-align: center;
+      // margin-top: 50px;
+    }
+    input[type="button"] {
+      padding: 1px 10px;
+      width: 220px;
+      // border-radius: 0 0 10px 10px;
+      border: none;
+      background: #EA474C;
+      color: $white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 10;
+      position: relative;
+      // margin-left: 40px;
+
+      &:hover {
+        background: green;
+        color: white;
+      }
+    }
+  }
+}
+
+.containerBlancSearch {
+  padding-top: 50px;
+  width: 70%;
+  border-radius: 20px;
+  height: 400px;
+  background-image: url("./../../img/searchImage.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-image: "searchImage.jpeg";
+}
+
+.bienvenue {
+  font-size: 40px;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  color: white;
+  font-family: 'montserrat';
+}
